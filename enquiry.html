@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Enquiry - Vetrii Foods</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="logo">
+            <a href="index.html"><img src="vetrii.png" width="140px" height="70px" alt="Vetrii Foods Logo"></a>
+        </div>
+        <div class="list-items">
+            <ul>
+                <li><a href="/">Home</a></li>
+                
+                <li><a href="/products">Our Products</a></li>
+                <li><a href="/gallery">Gallery</a></li>
+                <li><a href="/testimonials">Testimonials</a></li>
+                <li><a href="/enquiry">Enquiry</a></li>
+                <li><a href="/contact">Contact Us</a></li>
+              </ul>
+              
+        </div>
+    </div>
+    
+
+    <section class="enquiry">
+        <h1>Enquiry Form</h1>
+        <p>Please fill out the form below and we will get back to you shortly.</p>
+        <div class="enquiry-container">
+            <form id="enquiryForm" class="enquiry-form">
+                <div class="form-group">
+                    <span class="icon">👤</span>
+                    <input type="text" id="name" placeholder="Name" required>
+                </div>
+                <div class="form-group">
+                    <span class="icon">✉️</span>
+                    <input type="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <select id="product" required>
+                        <option value="" disabled selected>Select Product</option>
+                        <option value="Product 1">Product 1</option>
+                        <option value="Product 2">Product 2</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <span class="icon">📞</span>
+                    <input type="tel" id="phone" placeholder="Phone" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" placeholder="Message" required></textarea>
+                </div>
+                <button type="submit">Submit Now</button>
+            </form>
+            <div class="enquiry-image">
+                <img src="enquiry.png" alt="Enquiry Image">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Vetrii Foods. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>
+

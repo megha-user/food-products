@@ -1,0 +1,164 @@
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.nav-bar {
+    background-color: #292929;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-bar .logo img {
+    max-height: 70px;
+}
+
+.nav-bar .list-items ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar .list-items li {
+    margin: 0 20px;
+}
+
+.nav-bar .list-items a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-bar .list-items a:hover {
+    color: #f9a825;
+}
+
+
+.testimonials {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.testimonials h1 {
+    font-size: 2.5rem;
+    color: crimson;
+    margin-bottom: 10px;
+}
+
+.testimonials p {
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+    color: #666;
+}
+/*
+.testimonial-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.testimonial-image img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+} */
+.testimonial-section {
+    display: flex;
+    flex-wrap: wrap; /* Ensure layout remains responsive */
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.testimonial-image img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-slider {
+    overflow: hidden;
+    position: relative;
+    width: 50%;
+}
+.testimonial-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%; /* Let JavaScript handle the transform */
+}
+/*
+.testimonial-container {
+    display: flex;
+    transition: transform 0.5s ease;
+} */
+
+.testimonial-card {
+    flex: 0 0 100%;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+blockquote {
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #444;
+}
+
+.slider-navigation {
+    margin-top: 20px;
+}
+
+.slider-navigation button {
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.slider-navigation button:hover {
+    background-color: darkred;
+}
+
+footer {
+    position: fixed; /* If you want it always visible at the bottom */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+}
+
+
+footer p {
+    margin: 0;
+}
+
+.social-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
